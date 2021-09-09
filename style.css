@@ -1,0 +1,40 @@
+sidebar{
+    top:40;
+    width: 200px;
+    height: 100px;
+}
+.button__outline {
+    width: 10.5rem;
+    max-width: 10.5rem;
+    border: 2px solid #fff;
+    border-radius: 1.5625rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+    letter-spacing: 0.0275rem;
+    text-align: center;
+    padding: 0.875rem 0;
+    border-color: #2BD9C7;
+    color: #2BD9C7;
+}
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+.button__outline:hover {
+    width: 10.5rem;
+    max-width: 10.5rem;
+    border: 2px solid #fff;
+    border-radius: 1.5625rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+    letter-spacing: 0.0275rem;
+    text-align: center;
+    padding: 0.875rem 0;
+    border-color: #2BD9C7;
+    color: #2BD9C7;
+}
+.hei{
+    padding:0 15px 0 15px;
+}
+.hey{
+    border-spacing: 5px;
+}
