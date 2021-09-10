@@ -1,8 +1,12 @@
-sidebar{
-    top:40;
-    width: 200px;
-    height: 100px;
+.sidebar-desktop{
+    width: 100%;
+    max-width: 200px;
+    left: 30px;
+    position: absolute;
 }
+
+
+
 .button__outline {
     width: 10.5rem;
     max-width: 10.5rem;
