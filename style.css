@@ -38,3 +38,8 @@ sidebar{
 .hey{
     border-spacing: 5px;
 }
+div.blah {
+    position:absolute;
+    top: 30px; /*[wherever you want it]*/
+    left: 20px;; /*[wherever you want it]*/
+  }
