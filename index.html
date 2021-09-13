@@ -246,6 +246,7 @@
 
 
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body
@@ -462,7 +463,7 @@
 
             <sidebar class="d-none d-xl-inline-block sidebar-desktop">
                 <div class="btn-group py-4 my-4">
-                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button style="background-color: #fff; border: none;" class="btn btn-secondary btn-sm dropdown-toggle label color__standard mb-8 mb-lg-16 font-weight-bold text-uppercase" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       anno di laurea
                     </button>
                     <div class="dropdown-menu">
@@ -470,7 +471,7 @@
                     </div>
                 </div>
                 <div class="btn-group py-4 my-4">
-                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button style="background-color: #fff; border: none;" class="btn btn-secondary btn-sm dropdown-toggle label color__standard mb-8 mb-lg-16 font-weight-bold text-uppercase" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Dipartimento/Facolta'
                     </button>
                     <div class="dropdown-menu">
@@ -478,12 +479,22 @@
                     </div>
                 </div>
                 <div class="btn-group py-4 my-4">
-                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button style="background-color: #fff; border: none;" class="btn btn-secondary btn-sm dropdown-toggle label color__standard mb-8 mb-lg-16 font-weight-bold text-uppercase" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       localita'
                     </button>
                     <div class="dropdown-menu">
                       ...
                     </div>
+                </div>
+                <div class="btn-group py-4 my-4">
+                    <button style="background-color: #fff; border: none;" id="search" class="btn btn-secondary btn-sm label color__standard mb-8 mb-lg-16 font-weight-bold text-uppercase" type="button" aria-haspopup="true" aria-expanded="false" onclick="myFunction()">
+                      cerca <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="btn-group py-4 my-4" id="myDIV">
+                    <form>
+                        <input type="text" placeholder="Search.." name="search">
+                    </form>
                 </div>
             </sidebar>
 
@@ -522,11 +533,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="https://picsum.photos/200" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <strong>
-                                <p class="card-text">Nome e Cognome </p>
-                                <p class="label color__standard mb-8 mb-lg-16 font-weight-bold text-uppercase">
-                                    Approfondimenti				</p>
-                            </strong>
+                                <p class="card-text"><b>Nome e Cognome</b></p>
+                            <br>
                             <p class="card-text">anno</p>
                             <a href="index2.html">seconda pagina</a>
                         </div>
