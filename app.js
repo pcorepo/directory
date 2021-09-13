@@ -6,6 +6,8 @@ let sidebar = document.querySelector('.sidebar-desktop');
 
 
 sidebar.setAttribute('style', 'top:' + height + 'px');
+var y = document.getElementById("myDIV");
+y.style.display="none";
 
 function myFunction() {
    var x = document.getElementById("myDIV");
