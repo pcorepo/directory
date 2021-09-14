@@ -57,3 +57,22 @@ div.blah {
     margin-top: 8px;
     margin-bottom: 8px;
 }
+.immagine{
+    border-radius: 10px;
+}
+.larghezza{
+    width: 100%; max-width: 100%;
+}
+.grigio{
+    color: #747d8c;
+}
+.acquamarina{
+    color: #2BD9C7;
+}
+.button-style{
+    background-color: #fff;
+    border: none;
+}
+.white{
+    background-color: #fff;
+}
