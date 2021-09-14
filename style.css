@@ -4,7 +4,16 @@
     left: 30px;
     position: absolute;
 }
-
+.littlepadding{
+    padding-left: 54px;
+}
+.xpadding{
+    padding-left: 58px;
+    padding-right: 28px;
+}
+.noborder{
+    border: none;
+}
 
 
 .button__outline {
