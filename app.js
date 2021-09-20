@@ -2,7 +2,10 @@ let bread = document.querySelector('.breadcrumb').getBoundingClientRect();
 let nav = document.querySelector('.navbar').getBoundingClientRect();
 
 let height = nav.height + bread.height;
-let sidebar = document.querySelector('.sidebar-desktop');
+let sidebar = document.querySelector('.sidebar-desktop').getBoundingClientRect();
+let sidebarwidth = sidebar.width;
+console.log(sidebarwidth);
+//sidebar.setAttribute('style','margin-left:'+ sidebarwidth + 'px');
 
 
 sidebar.setAttribute('style', 'top:' + height + 'px');
