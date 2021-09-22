@@ -21,6 +21,11 @@
     right: 0px;
     left: 210px;
 }*/
+.newsize{
+    height: 92%;
+    width: 92%;
+    object-fit: cover;
+}
 
 
 .button__outline {
