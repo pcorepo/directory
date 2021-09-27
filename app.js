@@ -10,9 +10,10 @@ console.log(sidebarwidth);
 
 sidebar.setAttribute('style', 'top:' + height + 'px');
 var y = document.getElementById("myDIV");
+var i = document.getElementById('MYDIV');
 y.style.display="none";
 
-function myFunction() {
+function myFunction1() {
    var x = document.getElementById("myDIV");
    if (x.style.display === "none") {
       x.style.display = "block";
@@ -21,6 +22,14 @@ function myFunction() {
    }
 }
 
-var i = document.getElementById('myDIV');
-i.style.display='none';
+
+i.style.display="none";
+function myFunction2() {
+   var n = document.getElementById("MYDIV");
+   if (n.style.display === "none") {
+      n.style.display = "block";
+   } else {
+      n.style.display = "none";
+   }
+}
 // <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
