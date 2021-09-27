@@ -21,6 +21,29 @@
     right: 0px;
     left: 210px;
 }*/
+:root {
+    --blue: #003A70;
+    --acqua: #2BD9C7;
+    --black: #001E33;
+    --grey: #7F8387;
+    --softgrey: #C0C2C4;
+    --white: #FFFFFF;
+  }
+.nero{
+    color: var(--black);
+}
+.blu{
+    color: var(--blue);
+}
+.acquamarina{
+    color: var(--acqua);
+}
+.grigio{
+    color: var(--grey);
+}
+.softgrigio{
+    color: var(--softgrey);
+}
 
 .button__outline {
     width: 10.5rem;

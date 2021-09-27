@@ -1,3 +1,8 @@
+var y = document.getElementById("myDIV");
+var i = document.getElementById('MYDIV');
+i.style.display="none";
+y.style.display="none";
+
 let bread = document.querySelector('.breadcrumb').getBoundingClientRect();
 let nav = document.querySelector('.navbar').getBoundingClientRect();
 
@@ -7,12 +12,7 @@ let sidebarwidth = sidebar.width;
 console.log(sidebarwidth);
 //sidebar.setAttribute('style','margin-left:'+ sidebarwidth + 'px');
 
-
 sidebar.setAttribute('style', 'top:' + height + 'px');
-var y = document.getElementById("myDIV");
-var i = document.getElementById('MYDIV');
-i.style.display="none";
-y.style.display="none";
 
 function myFunction1() {
    var x = document.getElementById("myDIV");
