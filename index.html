@@ -271,6 +271,12 @@
                     display: none;
                 }
             }
+            @media only screen and (max-width: 450px) {
+                .newsize{
+                    height: 320px;
+                    object-fit: cover;
+                }
+            }
     </style>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -633,11 +639,11 @@
                             </select>
                         </div>
                         <!-- button for Modal -->
-                        <button type="button" class="btn nolargescreen label color__standard mb-4 mb-lg-6 font-weight-bold text-uppercase" data-toggle="modal" data-target="#exampleModal">
+                        <button type="button" style="display: inline-block; padding-left: 0%;" class="btn nolargescreen label color__standard mb-4 mb-lg-6 font-weight-bold text-uppercase" data-toggle="modal" data-target="#exampleModal">
                             Cambia Filtri
                         </button>
                           
-                          <!-- Modal -->
+                        <!-- Modal -->
                         <div class="modal fade nolargescreen" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                               <div class="modal-content">
@@ -713,7 +719,7 @@
                             </div>
                         </div>
                         <div class="btn-group py-4 my-4">
-                            <button style="background-color: #fff; border: none;" id="search" class="btn btn-secondary btn-sm label color__standard mb-8 mb-lg-16 font-weight-bold text-uppercase" type="button" aria-haspopup="true" aria-expanded="false" onclick="myFunction()">
+                            <button style="background-color: #fff; border: none;" id="search" class="btn btn-secondary btn-sm label color__standard mb-lg-16 font-weight-bold text-uppercase text-right mb-4" type="button" aria-haspopup="true" aria-expanded="false" onclick="myFunction()">
                               cerca <i class="fas fa-search"></i>
                             </button>
                         </div>
@@ -726,9 +732,9 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 space spaceremoved"> 
                     
-                    <div class="card-wrapper mx-auto newsize">
+                    <div class="card-wrapper mx-auto">
                         <div class="card cardshadow noborder">
-                            <img src="https://picsum.photos/200" class="card-img-top rounded-top" alt="...">
+                            <img src="https://picsum.photos/200" class="card-img-top rounded-top newsize" alt="...">
                             <div class="card-body text-center">
                                     <p class="card-text lessspace"><b>nome e cognome</b></p>
                                 <br>
@@ -740,9 +746,9 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     
-                    <div class="card-wrapper mx-auto newsize">
+                    <div class="card-wrapper mx-auto">
                         <div class="card cardshadow noborder">
-                            <img src="https://picsum.photos/200" class="card-img-top rounded-top" alt="...">
+                            <img src="https://picsum.photos/200" class="card-img-top rounded-top newsize" alt="...">
                             <div class="card-body text-center">
                                     <p class="card-text lessspace"><b>nome e cognome</b></p>
                                 <br>
@@ -754,9 +760,9 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     
-                    <div class="card-wrapper mx-auto newsize">
+                    <div class="card-wrapper mx-auto">
                         <div class="card cardshadow noborder">
-                            <img src="https://picsum.photos/200" class="card-img-top rounded-top" alt="...">
+                            <img src="https://picsum.photos/200" class="card-img-top rounded-top newsize" alt="...">
                             <div class="card-body text-center">
                                     <p class="card-text lessspace"><b>nome e cognome</b></p>
                                 <br>
@@ -768,9 +774,9 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 space spaceremoved">
                     
-                    <div class="card-wrapper mx-auto newsize">
+                    <div class="card-wrapper mx-auto">
                         <div class="card cardshadow noborder">
-                            <img src="https://picsum.photos/200" class="card-img-top rounded-top" alt="...">
+                            <img src="https://picsum.photos/200" class="card-img-top rounded-top newsize" alt="...">
                             <div class="card-body text-center">
                                     <p class="card-text lessspace"><b>nome e cognome</b></p>
                                 <br>
@@ -782,9 +788,9 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     
-                    <div class="card-wrapper mx-auto newsize">
+                    <div class="card-wrapper mx-auto">
                         <div class="card cardshadow noborder">
-                            <img src="https://picsum.photos/200" class="card-img-top rounded-top" alt="...">
+                            <img src="https://picsum.photos/200" class="card-img-top rounded-top newsize" alt="...">
                             <div class="card-body text-center">
                                     <p class="card-text lessspace"><b>nome e cognome</b></p>
                                 <br>
@@ -796,9 +802,9 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     
-                    <div class="card-wrapper mx-auto newsize">
+                    <div class="card-wrapper mx-auto">
                         <div class="card cardshadow noborder">
-                            <img src="https://picsum.photos/200" class="card-img-top rounded-top" alt="...">
+                            <img src="https://picsum.photos/200" class="card-img-top rounded-top newsize" alt="...">
                             <div class="card-body text-center">
                                     <p class="card-text lessspace"><b>nome e cognome</b></p>
                                 <br>
@@ -810,9 +816,9 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 space spaceremoved">
                     
-                    <div class="card-wrapper mx-auto newsize">
+                    <div class="card-wrapper mx-auto">
                         <div class="card cardshadow noborder"  >
-                            <img src="https://picsum.photos/200" class="card-img-top rounded-top" alt="...">
+                            <img src="https://picsum.photos/200" class="card-img-top rounded-top newsize" alt="...">
                             <div class="card-body text-center">
                                     <p class="card-text lessspace"><b>nome e cognome</b></p>
                                 <br>
@@ -824,9 +830,9 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     
-                    <div class="card-wrapper mx-auto newsize">
+                    <div class="card-wrapper mx-auto">
                         <div class="card cardshadow noborder"  >
-                            <img src="https://picsum.photos/200" class="card-img-top rounded-top" alt="...">
+                            <img src="https://picsum.photos/200" class="card-img-top rounded-top newsize" alt="...">
                             <div class="card-body text-center">
                                     <p class="card-text lessspace"><b>nome e cognome</b></p>
                                 <br>
