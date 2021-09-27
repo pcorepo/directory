@@ -11,6 +11,7 @@ console.log(sidebarwidth);
 sidebar.setAttribute('style', 'top:' + height + 'px');
 var y = document.getElementById("myDIV");
 var i = document.getElementById('MYDIV');
+i.style.display="none";
 y.style.display="none";
 
 function myFunction1() {
@@ -22,8 +23,6 @@ function myFunction1() {
    }
 }
 
-
-i.style.display="none";
 function myFunction2() {
    var n = document.getElementById("MYDIV");
    if (n.style.display === "none") {
