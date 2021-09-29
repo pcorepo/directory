@@ -21,6 +21,9 @@
     right: 0px;
     left: 210px;
 }*/
+.spaceunder{
+    margin-bottom: 36px;
+}
 :root {
     --blue: #003A70;
     --acqua: #2BD9C7;
